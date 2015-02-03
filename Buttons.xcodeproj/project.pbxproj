@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9691A57E14C6261300278932 /* Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9691A57D14C6261300278932 /* Helpers.m */; };
+		96985CAF14C89B3F00748EC6 /* IMG_1399.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 96985CAE14C89B3F00748EC6 /* IMG_1399.JPG */; };
 		96A27D1114C4513B001BA9D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A27D1014C4513B001BA9D7 /* UIKit.framework */; };
 		96A27D1314C4513B001BA9D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A27D1214C4513B001BA9D7 /* Foundation.framework */; };
 		96A27D1514C4513B001BA9D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A27D1414C4513B001BA9D7 /* CoreGraphics.framework */; };
@@ -15,22 +17,42 @@
 		96A27D2114C4513B001BA9D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A27D2014C4513B001BA9D7 /* AppDelegate.m */; };
 		96A27D2414C4513B001BA9D7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A27D2214C4513B001BA9D7 /* MainStoryboard.storyboard */; };
 		96A27D2714C4513B001BA9D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A27D2614C4513B001BA9D7 /* ViewController.m */; };
+		96A27D2E14C45683001BA9D7 /* IMG_2358.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 96A27D2D14C45683001BA9D7 /* IMG_2358.JPG */; };
+		96A27D3C14C45D93001BA9D7 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A27D3B14C45D93001BA9D7 /* EventKitUI.framework */; };
+		96A27D3F14C45DAF001BA9D7 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A27D3E14C45DAF001BA9D7 /* EventKit.framework */; };
+		96A27D4114C465B1001BA9D7 /* IMG_2346.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A27D4014C465B1001BA9D7 /* IMG_2346.png */; };
+		96A27D4414C4BB38001BA9D7 /* IntelligentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A27D4314C4BB38001BA9D7 /* IntelligentButton.m */; };
+		96A27D4714C4C56B001BA9D7 /* ScreenObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A27D4614C4C56B001BA9D7 /* ScreenObject.m */; };
+		96DB1B7214C6F52300002AFD /* IntelligentWall.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DB1B7114C6F52300002AFD /* IntelligentWall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9691A57C14C6261300278932 /* Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		9691A57D14C6261300278932 /* Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helpers.m; sourceTree = "<group>"; };
+		96985CAE14C89B3F00748EC6 /* IMG_1399.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1399.JPG; sourceTree = "<group>"; };
 		96A27D0C14C4513B001BA9D7 /* Buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buttons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A27D1014C4513B001BA9D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96A27D1214C4513B001BA9D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		96A27D1414C4513B001BA9D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		96A27D1814C4513B001BA9D7 /* Buttons-Info.plist */ = {isa = PBXFileReference; path = "Buttons-Info.plist"; sourceTree = "<group>"; };
+		96A27D1814C4513B001BA9D7 /* Buttons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Buttons-Info.plist"; sourceTree = "<group>"; };
 		96A27D1A14C4513B001BA9D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96A27D1C14C4513B001BA9D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		96A27D1E14C4513B001BA9D7 /* Buttons-Prefix.pch */ = {isa = PBXFileReference; path = "Buttons-Prefix.pch"; sourceTree = "<group>"; };
-		96A27D1F14C4513B001BA9D7 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		96A27D1E14C4513B001BA9D7 /* Buttons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Buttons-Prefix.pch"; sourceTree = "<group>"; };
+		96A27D1F14C4513B001BA9D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96A27D2014C4513B001BA9D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		96A27D2314C4513B001BA9D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		96A27D2514C4513B001BA9D7 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		96A27D2514C4513B001BA9D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		96A27D2614C4513B001BA9D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96A27D2D14C45683001BA9D7 /* IMG_2358.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2358.JPG; sourceTree = "<group>"; };
+		96A27D3B14C45D93001BA9D7 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		96A27D3E14C45DAF001BA9D7 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		96A27D4014C465B1001BA9D7 /* IMG_2346.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_2346.png; path = ../../SebasTest001/SebasTest001/SebasTest001/images/IMG_2346.png; sourceTree = "<group>"; };
+		96A27D4214C4BB38001BA9D7 /* IntelligentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntelligentButton.h; sourceTree = "<group>"; };
+		96A27D4314C4BB38001BA9D7 /* IntelligentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntelligentButton.m; sourceTree = "<group>"; };
+		96A27D4514C4C56B001BA9D7 /* ScreenObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenObject.h; sourceTree = "<group>"; };
+		96A27D4614C4C56B001BA9D7 /* ScreenObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenObject.m; sourceTree = "<group>"; };
+		96DB1B7014C6F52300002AFD /* IntelligentWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntelligentWall.h; sourceTree = "<group>"; };
+		96DB1B7114C6F52300002AFD /* IntelligentWall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntelligentWall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A27D3F14C45DAF001BA9D7 /* EventKit.framework in Frameworks */,
+				96A27D3C14C45D93001BA9D7 /* EventKitUI.framework in Frameworks */,
 				96A27D1114C4513B001BA9D7 /* UIKit.framework in Frameworks */,
 				96A27D1314C4513B001BA9D7 /* Foundation.framework in Frameworks */,
 				96A27D1514C4513B001BA9D7 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +74,8 @@
 		96A27D0114C4513B001BA9D7 = {
 			isa = PBXGroup;
 			children = (
+				96A27D3E14C45DAF001BA9D7 /* EventKit.framework */,
+				96A27D3B14C45D93001BA9D7 /* EventKitUI.framework */,
 				96A27D1614C4513B001BA9D7 /* Buttons */,
 				96A27D0F14C4513B001BA9D7 /* Frameworks */,
 				96A27D0D14C4513B001BA9D7 /* Products */,
@@ -83,6 +109,14 @@
 				96A27D2514C4513B001BA9D7 /* ViewController.h */,
 				96A27D2614C4513B001BA9D7 /* ViewController.m */,
 				96A27D1714C4513B001BA9D7 /* Supporting Files */,
+				9691A57C14C6261300278932 /* Helpers.h */,
+				9691A57D14C6261300278932 /* Helpers.m */,
+				96A27D4214C4BB38001BA9D7 /* IntelligentButton.h */,
+				96A27D4314C4BB38001BA9D7 /* IntelligentButton.m */,
+				96DB1B7014C6F52300002AFD /* IntelligentWall.h */,
+				96DB1B7114C6F52300002AFD /* IntelligentWall.m */,
+				96A27D4514C4C56B001BA9D7 /* ScreenObject.h */,
+				96A27D4614C4C56B001BA9D7 /* ScreenObject.m */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -90,6 +124,9 @@
 		96A27D1714C4513B001BA9D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				96985CAE14C89B3F00748EC6 /* IMG_1399.JPG */,
+				96A27D4014C465B1001BA9D7 /* IMG_2346.png */,
+				96A27D2D14C45683001BA9D7 /* IMG_2358.JPG */,
 				96A27D1814C4513B001BA9D7 /* Buttons-Info.plist */,
 				96A27D1914C4513B001BA9D7 /* InfoPlist.strings */,
 				96A27D1C14C4513B001BA9D7 /* main.m */,
@@ -150,6 +187,9 @@
 			files = (
 				96A27D1B14C4513B001BA9D7 /* InfoPlist.strings in Resources */,
 				96A27D2414C4513B001BA9D7 /* MainStoryboard.storyboard in Resources */,
+				96A27D2E14C45683001BA9D7 /* IMG_2358.JPG in Resources */,
+				96A27D4114C465B1001BA9D7 /* IMG_2346.png in Resources */,
+				96985CAF14C89B3F00748EC6 /* IMG_1399.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +203,10 @@
 				96A27D1D14C4513B001BA9D7 /* main.m in Sources */,
 				96A27D2114C4513B001BA9D7 /* AppDelegate.m in Sources */,
 				96A27D2714C4513B001BA9D7 /* ViewController.m in Sources */,
+				96A27D4414C4BB38001BA9D7 /* IntelligentButton.m in Sources */,
+				96A27D4714C4C56B001BA9D7 /* ScreenObject.m in Sources */,
+				9691A57E14C6261300278932 /* Helpers.m in Sources */,
+				96DB1B7214C6F52300002AFD /* IntelligentWall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +320,7 @@
 				96A27D2C14C4513B001BA9D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
