@@ -29,16 +29,37 @@
 {
     [super applyCollisionEffectOnEdge:edge withObject:otherScreenObject];
     self.buttonState = (self.buttonState==BUTTON_STATE_UP)?BUTTON_STATE_DOWN:BUTTON_STATE_UP;
+    [self updateButtonBackgroundColor];
+}
+
+-(void)updateButtonBackgroundColor
+{
+    if (self.buttonState==BUTTON_STATE_UP) {
+        [self.associatedButton setBackgroundColor: [UIColor colorWithRed:0.0f green:0.5f blue:0.0f alpha:1.0f]];
+        [self.associatedButton setTitle:@"perfect" forState:UIControlStateNormal];
+//        self.associatedButton.tintColor = [UIColor redColor];
+//        [self.associatedButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    } else {
+        [self.associatedButton setBackgroundColor: [UIColor redColor]];
+        [self.associatedButton setTitle:@"PRESS ME" forState:UIControlStateNormal];
+//        [self.associatedButton setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
+    }
+    self.associatedButton.layer.cornerRadius = 8.0;
 }
 
 -(void)checkAndHandleButtonPress:(id)button
 {
+    UIButton *btn = (UIButton*)button;
+
     if (button == self.associatedButton) {
         self.buttonState = (self.buttonState==BUTTON_STATE_UP)?BUTTON_STATE_DOWN:BUTTON_STATE_UP;
+
+        [self updateButtonBackgroundColor];
+
         
-        BOOL isHighlighted = self.associatedButton.highlighted;
-        isHighlighted = !isHighlighted;
-        self.associatedButton.highlighted = isHighlighted;
+//        BOOL isHighlighted = self.associatedButton.highlighted;
+//        isHighlighted = !isHighlighted;
+//        self.associatedButton.highlighted = isHighlighted;
         //self.associatedButton.frame = CGRectMake(self.associatedButton.frame.origin.x,self.associatedButton.frame.origin.y,self.associatedButton.frame.size.width*1.5,self.associatedButton.frame.size.height*1.5);
     }
 }
@@ -78,7 +99,9 @@
 {
     [super updatePositionWithDeltaTime:deltaTime_NSNumber];
     self.associatedButton.frame = CGRectMake(super.frame.origin.x, super.frame.origin.y, super.frame.size.width, super.frame.size.height);
-    self.associatedButton.highlighted = (self.buttonState==BUTTON_STATE_DOWN);
+//    self.associatedButton.highlighted = (self.buttonState==BUTTON_STATE_DOWN);
+    [self updateButtonBackgroundColor];
+
 }
 
 
