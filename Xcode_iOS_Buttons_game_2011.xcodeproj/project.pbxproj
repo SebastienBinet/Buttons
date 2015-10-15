@@ -22,6 +22,7 @@
 		96A27D3F14C45DAF001BA9D7 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A27D3E14C45DAF001BA9D7 /* EventKit.framework */; };
 		96A27D4414C4BB38001BA9D7 /* IntelligentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A27D4314C4BB38001BA9D7 /* IntelligentButton.m */; };
 		96A27D4714C4C56B001BA9D7 /* ScreenObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A27D4614C4C56B001BA9D7 /* ScreenObject.m */; };
+		96C275711BD019E3003A283E /* iPad_Video_Capture.mov in Resources */ = {isa = PBXBuildFile; fileRef = 96C275701BD019E3003A283E /* iPad_Video_Capture.mov */; settings = {ASSET_TAGS = (); }; };
 		96DB1B7214C6F52300002AFD /* IntelligentWall.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DB1B7114C6F52300002AFD /* IntelligentWall.m */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		96A27D4314C4BB38001BA9D7 /* IntelligentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntelligentButton.m; sourceTree = "<group>"; };
 		96A27D4514C4C56B001BA9D7 /* ScreenObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenObject.h; sourceTree = "<group>"; };
 		96A27D4614C4C56B001BA9D7 /* ScreenObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenObject.m; sourceTree = "<group>"; };
+		96C275701BD019E3003A283E /* iPad_Video_Capture.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = iPad_Video_Capture.mov; sourceTree = "<group>"; };
 		96DB1B7014C6F52300002AFD /* IntelligentWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntelligentWall.h; sourceTree = "<group>"; };
 		96DB1B7114C6F52300002AFD /* IntelligentWall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntelligentWall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 		96A27D0114C4513B001BA9D7 = {
 			isa = PBXGroup;
 			children = (
+				96C275701BD019E3003A283E /* iPad_Video_Capture.mov */,
 				96A27D3E14C45DAF001BA9D7 /* EventKit.framework */,
 				96A27D3B14C45D93001BA9D7 /* EventKitUI.framework */,
 				96A27D1614C4513B001BA9D7 /* Buttons */,
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A27D1B14C4513B001BA9D7 /* InfoPlist.strings in Resources */,
+				96C275711BD019E3003A283E /* iPad_Video_Capture.mov in Resources */,
 				96A27D2414C4513B001BA9D7 /* MainStoryboard.storyboard in Resources */,
 				96A27D2E14C45683001BA9D7 /* IMG_2358.JPG in Resources */,
 				96985CAF14C89B3F00748EC6 /* IMG_1399.JPG in Resources */,
@@ -311,9 +315,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Buttons/Xcode_iOS_Buttons_game_2011-Prefix.pch";
 				INFOPLIST_FILE = "Buttons/Xcode_iOS_Buttons_game_2011-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = Xcode_iOS_Buttons_game_2011;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -326,9 +331,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Buttons/Xcode_iOS_Buttons_game_2011-Prefix.pch";
 				INFOPLIST_FILE = "Buttons/Xcode_iOS_Buttons_game_2011-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = Xcode_iOS_Buttons_game_2011;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
